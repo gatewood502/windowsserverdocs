@@ -9,7 +9,7 @@ ms.topic: overview
 
 # What is Windows LAPS?
 
-Windows Local Administrator Password Solution (Windows LAPS) is a Windows feature that automatically manages and backs up the password of a local administrator account on your Azure Active Directory-joined or Windows Server Active Directory-joined devices. You also can use Windows LAPS to automatically manage and back up the Directory Services Restore Mode (DSRM) account password on your Windows Server Active Directory domain controllers. An authorized administrator can retrieve the DSRM password and use it.
+Windows Local Administrator Password Solution (Windows LAPS) is a Windows feature that automatically manages and backs up the password of a local administrator account on your Microsoft Entra Directory-joined or Windows Server Active Directory-joined devices. You also can use Windows LAPS to automatically manage and back up the Directory Services Restore Mode (DSRM) account password on your Windows Server Active Directory domain controllers. An authorized administrator can retrieve the DSRM password and use it.
 
 ## Windows LAPS supported platforms and Azure AD LAPS preview status
 
@@ -30,9 +30,9 @@ The  Windows LAPS on-premises Active Directory scenarios are fully supported as 
 >
 > For more information, see:
 >
-> [Introducing Windows Local Administrator Password Solution with Azure AD](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/introducing-windows-local-administrator-password-solution-with/ba-p/1942487)
+> [Introducing Windows Local Administrator Password Solution with Microsoft Entra](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/introducing-windows-local-administrator-password-solution-with/ba-p/1942487)
 >
-> [Windows Local Administrator Password Solution in Azure AD (preview)](https://aka.ms/cloudlaps)
+> [Windows Local Administrator Password Solution in Microsoft Entra (preview)](https://aka.ms/cloudlaps)
 >
 > [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview)
 
@@ -115,7 +115,7 @@ Windows LAPS inherits many design concepts from legacy Microsoft LAPS. If you're
 
 ## Support statement
 
-Microsoft released the legacy Microsoft LAPS product in calendar year 2016 on the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=46899). Windows LAPS shipped as part of Windows Updates released on April 11, 2023 for the platforms listed in [Windows LAPS supported platforms and Azure AD LAPS preview status](laps-overview.md#windows-laps-supported-platforms-and-azure-ad-laps-preview-status).
+Microsoft released the legacy Microsoft LAPS product in calendar year 2016 on the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=46899). Windows LAPS shipped as part of Windows Updates released on April 11, 2023 for the platforms listed in [Windows LAPS supported platforms and Microsoft Entra LAPS preview status](laps-overview.md#windows-laps-supported-platforms-and-azure-ad-laps-preview-status).
 
 Microsoft and its support delivery organization offer assisted support for both Microsoft LAPS and Windows LAPS including interoperability between the two products.
 
@@ -129,7 +129,7 @@ The Windows LAPS feature itself is available for free in all supported Windows p
 
 You can back up passwords to your on-premises Active Directory with no other licensing requirements.
 
-You can back up passwords to Azure AD with an Azure AD Free or higher license.
+You can back up passwords to Microsoft Entra with a Microsoft Entra Free or higher license.
 
 Other Azure- or Intune-related features may have other licensing requirements.
 
@@ -139,14 +139,14 @@ Want to send us feedback? Feel free to submit doc-specific questions via the Fee
 
 You may also submit feedback and other requests via the [Windows LAPS feedback](https://aka.ms/WindowsLAPSFeedback) Tech Community page.
 
-If your feedback is specific to the Azure AD- or Intune-related LAPS functionality, you may submit feedback via the [Azure AD feedback forum](https://feedback.azure.com/d365community/forum/22920db1-ad25-ec11-b6e6-000d3a4f0789).
+If your feedback is specific to the Microsoft Entra- or Intune-related LAPS functionality, you may submit feedback via the [Microsoft Entra feedback forum](https://feedback.azure.com/d365community/forum/22920db1-ad25-ec11-b6e6-000d3a4f0789).
 
 If you aren't sure where your feedback should go, submit it using any of the above options.
 
 ## See also
 
-- [Introducing Windows Local Administrator Password Solution with Azure AD](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/introducing-windows-local-administrator-password-solution-with/ba-p/1942487)
-- [Windows Local Administrator Password Solution in Azure AD (preview)](https://aka.ms/cloudlaps)
+- [Introducing Windows Local Administrator Password Solution with Microsoft Entra](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/introducing-windows-local-administrator-password-solution-with/ba-p/1942487)
+- [Windows Local Administrator Password Solution in Microsoft Entra (preview)](https://aka.ms/cloudlaps)
 - [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview)
 - [Windows LAPS CSP](/windows/client-management/mdm/laps-csp)
 - [Legacy Microsoft LAPS](https://www.microsoft.com/download/details.aspx?id=46899)
